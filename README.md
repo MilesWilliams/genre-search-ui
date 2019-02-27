@@ -1,4 +1,4 @@
-# Genre Search *server
+# Genre Search *ui
 
 This is the UI`that corresponds with [Genre Search Server](https://www.github.com/MilesWilliams/genre-search-server). The purpose of this project was to 
 1. Show case how to create webcomponents using custom elements.
