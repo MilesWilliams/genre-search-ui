@@ -1,0 +1,101 @@
+.results-container {
+    display: none;
+}
+
+ul {
+    padding: 0;
+    display: block;
+}
+
+li {
+    list-style: none;
+    padding: 0.6rem 1.5rem;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #eee;
+    background-color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0A101F;
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    letter-spacing: 1.09px;
+    width: 100%;
+}
+
+li:hover {
+    filter: drop-shadow(1px 1px 10px rgba(50, 72, 108, 0.1));
+    transition: all 0.3s ease-in-out;
+}
+
+.liked-count {
+    text-align: right;
+    position: absolute;
+    right: 1.5rem;
+    display: flex;
+}
+
+.liked-count i {
+    margin-right: 10px;
+}
+
+img {
+    max-width: 75px;
+    border-radius: 50%;
+    height: 75px;
+
+    margin-right: 50px;
+}
+
+h1 {
+    display: none;
+    font-family: OpenSans-SemiBold;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #0A101F;
+    letter-spacing: 1.09px;
+    margin-top: 50px;
+}
+
+
+
+h2 {
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    color: #383D49;
+    letter-spacing: 0.69px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+span {
+    font-family: OpenSans-Regular;
+    color: #383D49;
+    letter-spacing: 0.69px;
+    margin-bottom: 5px;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.placeholder {
+    text-align: center;
+    padding: 10rem;
+    background-color: #eeeeee57;
+    margin-top: 50px;
+}
+
+.placeholder p {
+    font-family: OpenSans-Regular;
+    color: #383D49;
+    letter-spacing: 0.69px;
+}
